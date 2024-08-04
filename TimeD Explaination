@@ -1,0 +1,21 @@
+TimeD: Date and Time Picker in Flutter
+This folder contains a Flutter implementation of a date and time picker. The TimeD widget allows users to select a date and time using Flutter's built-in date and time picker dialogs. The selected values are displayed on the screen in a user-friendly format.
+
+Features
+Date Picker: Users can select a date from a calendar view. The selected date is then displayed in a readable format (MMMM d, yyyy).
+Time Picker: Users can select a time using a clock interface. The selected time is displayed in a 12-hour format with AM/PM (h:mm a).
+Code Explanation
+The TimeD widget is a stateful widget that manages the selected date and time. The UI includes buttons to trigger the date and time pickers, and text displays to show the selected values.
+
+Key Components
+Date Picker:
+
+Triggered using the showDatePicker function.
+The selected date is formatted using the DateFormat class from the intl package.
+Time Picker:
+
+Triggered using the showTimePicker function.
+The selected time is formatted using the TimeOfDay.format method.
+UI Updates:
+
+The setState method is used to update the UI whenever a new date or time is selected, ensuring the displayed values are always current.
