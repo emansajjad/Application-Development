@@ -28,8 +28,24 @@ class iconsConcept extends StatelessWidget {
               FontAwesomeIcons.instagram,
               size: 100,
               color: Colors.purpleAccent,
-            ) // this is the implementation of awesome icons in flutter,
+            ),// this is the implementation of awesome icons in flutter,
             //this library is for advance icons we can say that pool of icons
+            SizedBox(
+              width: 50,
+            ),
+            FaIcon(
+              FontAwesomeIcons.linkedin,
+              color: Colors.blue,
+              size: 100,
+            ),
+            SizedBox(
+              width: 50,
+            ),
+            FaIcon(
+              FontAwesomeIcons.whatsapp,
+              color: Colors.greenAccent,
+              size: 100,
+            )
           ],
         ),
       ),
