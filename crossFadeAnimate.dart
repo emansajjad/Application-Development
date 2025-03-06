@@ -31,7 +31,7 @@ class _CrossFadeLearnState extends State<CrossFadeLearn> {
               crossFadeState: isfirst ? CrossFadeState.showFirst
               :CrossFadeState.showSecond,
                duration: Duration(seconds: 4),
-               firstCurve: Curves.bounceIn,
+               firstCurve: Curves.fastOutSlowIn,
                secondCurve: Curves.bounceOut,
             //   sizeCurve: Curves.bounceInOut,mostly used when two widgets are of same size
                reverseDuration:Duration(seconds: 4),
