@@ -6,6 +6,9 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       appBar: AppBar(
+        automaticallyImplyLeading: true,
+      ),
       body: Center(child: Container(child: Hero(tag: 'move', child: Image.asset('assets/images/cute.jpg')))),
     );
   }
